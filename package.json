@@ -1,0 +1,29 @@
+{
+  "name": "mill",
+  "version": "1.0.0",
+  "description": "Sends g-code files to milling machine over serial port",
+  "main": "mill.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "minimist": "^1.2.0",
+    "serialport": "^6.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightyDevices/mill.git"
+  },
+  "keywords": [
+    "cnc",
+    "gcode"
+  ],
+  "author": "Tomasz Watorowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MightyDevices/mill/issues"
+  },
+  "homepage": "https://github.com/MightyDevices/mill#readme"
+}
